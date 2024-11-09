@@ -1,0 +1,402 @@
+
+
+/*Inicio*/
+
+.banner-l {
+    display: flex;
+    position: relative;
+    text-align: center;
+    background-image: url(https://c.wallhere.com/photos/b0/81/gaming_setup_SteelSeries_keyboards_headphones_mouse_pad_purple_black_white-1919185.jpg!d);
+    height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(66, 6, 104, 0.25);
+    box-shadow: 0px 54px 69px 0px rgba(0, 0, 0, 0.90);
+    -webkit-box-shadow: 0px 54px 69px 0px rgba(0, 0, 0, 0.90);
+    -moz-box-shadow: 0px 54px 69px 0px rgba(0, 0, 0, 0.90);
+}
+
+.banner-osc {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+
+
+ .header{
+    background-color: var(--blue);
+    position: sticky;
+    top:0; left:0;
+    z-index: 1000;
+ }
+ 
+ .header .flex{
+    display: flex;
+    align-items: center;
+    padding:1.5rem 2rem;
+    max-width: 1200px;
+    margin:0 auto;
+ }
+ 
+ .header .flex .logo{
+    margin-right: auto;
+    font-size: 2.5rem;
+    color:var(--white);
+ }
+ 
+ .header .flex .navbar a{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color:var(--white);
+ }
+ 
+ .header .flex .navbar a:hover{
+    color:yellow;
+ }
+ 
+ .header .flex .cart{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color:var(--white);
+ }
+ 
+ .header .flex .cart:hover{
+    color:yellow;
+ }
+ 
+ .header .flex .cart span{
+    padding:.1rem .5rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    color:var(--blue);
+    font-size: 2rem;
+ }
+
+ #menu-btn{
+    margin-left: 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    color:var(--white);
+    display: none;
+ }
+
+ :root{
+    --blue:#26142a;
+    --red:tomato;
+    --orange:orange;
+    --black:#333;
+    --white:#fff;
+    --bg-color:#eee;
+    --dark-bg:rgba(0,0,0,.7);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --border:.1rem solid #999;
+ }
+ 
+ *{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+ }
+
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+ }
+ 
+ .container{
+    max-width: 1200px;
+    margin:0 auto;
+    
+    /* padding-bottom: 5rem; */
+ }
+ 
+ section{
+    padding:2rem;
+ }
+ 
+ .heading{
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    
+    margin-bottom: 2rem;
+ }
+ 
+/*------------------------------*/
+
+.tituloinicio{
+    font-size:150px;
+    color: white;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 170px;
+    vertical-align: middle;
+    
+}
+
+/*footer*/
+input.ind-inp{
+    color: white;
+}
+
+
+input.form-foot{
+    color: white;
+}
+
+.foot-tit{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.foot-div1 {
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+    background-color: #26142a;
+    height: 500px;
+    flex-flow: column;
+    
+}
+
+#foot-arma{
+    margin-top: 0px !important;
+}
+
+.foot-div2 {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-flow: row;
+}
+
+.foot-div3 {
+    display: flex;
+    width: 33%;
+    height: 100%;
+    flex-flow: column;
+}
+
+.foot-div4 {
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.foot-log {
+    margin-bottom: auto;
+    margin: auto;
+    height: 150px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.foot-descr {
+    width: 90%; 
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    
+    font-size: 20px;
+    margin-top: 10%;
+    font-weight: 590;
+}
+.foot-descr2 {
+    width: 70%; 
+    margin: auto;
+    margin-right: 0;
+    text-align: right;
+    color: #fff;
+    
+    font-size: 20px;
+    margin-top: 10%;
+    font-weight: 590;
+}
+
+.link-sn{
+    padding: 0;
+    width: 10%; 
+    text-align: left;
+    margin: auto;
+    margin-left: 5px;
+    color: #fff;
+    
+    font-size: 20px;
+    margin-top: 10%;
+    font-weight: 590;
+}
+
+.foot-form1 {
+    display: flex;
+    width: 33%;
+    height: 100%;
+}
+
+.foot-label {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+form input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid #fff 2px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    padding: 10px;
+}
+
+form input:hover {
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+form input:focus {
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.footer-input{
+    color: #fff;
+}
+
+.footer-input:hover{
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.footer-input:focus{
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+input[type="submit"] {
+    background-color: #26142a;
+    color: white;
+    border: none;
+    
+}
+
+input[type="submit"]:hover {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.30);
+    
+}
+
+.foot-datos-der {
+    display: flex;
+    width: 33%;
+    height: 100%;
+    font-size:24px;
+    margin-left:500px;
+    line-height: 40px;
+
+}
+
+.foot-datos-items {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.foot-linea1 {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    border-top: solid #e2e2e2 1px;
+    margin-top: 25px;
+}
+
+.foot-linea2 {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+}
+
+.foot-aut {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    vertical-align: center;
+    height: 20px;
+    margin: auto;
+}
+
+.foot-redes {
+    height: 70px;
+    width: 70px;
+}
+
+
+
+.banner-g {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 9%;
+    height: 500px;
+}
+
+.ban-im-g {
+    height: 90%;
+    margin-right: 2%;
+    margin-top: 2%;
+    float: left;
+}
+
+.text-g,
+.text-t {
+    /*como dejar espacio despues de las img*/
+    font-size: 22px;
+   
+    margin-top: 2%;
+    padding-right: 155px;
+    text-indent: 10px;
+    line-height: 30px;
+    color: #fff;
+}
+
+#tit-t {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-t {
+    position: relative;
+    margin-left: 9%;
+    margin-top: 70px;
+    padding-right: 155px;
+    height: 500px;
+}
+
+.ban-im-t {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 760px;
+    height: 450px;
+    float: right;
+}
+
+.ind-tit{
+    color: white;
+    font-size: 45px;
+    
+    font-style: italic;
+}
+
+.menu-div-logoI {
+    width: 50%;
+    margin-right: auto;
+    padding-left: 155px;
+}
+
+
+
