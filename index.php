@@ -1,20 +1,15 @@
 <?php
-
+session_start();
 @include 'config.php';
 
-session_start();
 // cambiar el header dependiendo del tipo de sesion
 if(isset($_SESSION['admin_name'])) {
-   require_once('index.php');
    include("header.php");
-}elseif (isset($_SESSION['user_name'])){
-   require_once('index.php');
+} elseif (isset($_SESSION['user_name'])) {
    include("header2.php");
-}else{
-   require_once('index.php');
+} else {
    include("header_sin_reg.php");
 }
-
 ?>
 
 <!DOCTYPE html>

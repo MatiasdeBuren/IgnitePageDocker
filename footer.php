@@ -1,5 +1,4 @@
 <div class="foot-div1">
-        <!--empieza footer-->
         <div class="foot-div2">
             <div class="foot-div3">
                 <div class="foot-div4">
@@ -23,7 +22,7 @@
         <div class="foot-linea1">
             <div class="foot-linea2">
                 <p class="foot-aut">
-                    Hecho por: Nicolás Coloritto, Matías de Buren y Ayrton Ferreira</p>
+                    Hecho por: Matías de Buren</p>
                 <div style="padding-left: 40px; ">
                     <img class="foot-redes" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png " alt=" ">
                     <img class="foot-redes" src="https://cdn.discordapp.com/attachments/874269076925587516/885183010876588042/twitter_1.png " alt=" ">

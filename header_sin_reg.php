@@ -16,8 +16,17 @@
       </nav>
 
       <?php
-      
-      $select_rows = mysqli_query($conn, "SELECT * FROM `cart`") or die('query failed');
+      // Check if the database connection is established
+      if (!$conn) {
+         die('Database connection failed: ' . mysqli_connect_error());
+      }
+
+      // Execute the query and handle any errors
+      $select_rows = mysqli_query($conn, "SELECT * FROM `cart`");
+      if (!$select_rows) {
+         die('Query failed: ' . mysqli_error($conn));
+      }
+
       $row_count = mysqli_num_rows($select_rows);
 
       ?>

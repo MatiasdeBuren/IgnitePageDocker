@@ -1,9 +1,8 @@
-
 <?php
+session_start();
 
 @include 'config.php';
 
-session_start();
 // cambiar el header dependiendo del tipo de sesion
 if(isset($_SESSION['admin_name'])) {
    require_once('products.php');

@@ -53,7 +53,7 @@ if(isset($_POST['add_to_cart'])){
 <body>
    
 <?php
-//el div que se agrega para los mensajes
+
 if(isset($message)){
    foreach($message as $message){
       echo '<div class="message"><span>'.$message.'</span> <i class="fas fa-times" onclick="this.parentElement.style.display = `none`;"></i> </div>';
