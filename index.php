@@ -18,14 +18,14 @@ if(isset($_SESSION['admin_name'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styleinicio.css">
+    <title>Ignite</title>
+    <link rel="stylesheet" href="./css/styleinicio.css">
 </head>
 
 <body style="background-color:#111;">
     <div class="banner-l">
         <div class="banner-osc">          
-            <h1 id="ignite" class="tituloinicio">IGNITE</h1>
+            <h1 class="tituloinicio">IGNITE</h1>
         </div>
     </div>
     <div class="padre">
